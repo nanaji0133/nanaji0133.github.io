@@ -6,6 +6,7 @@ import pin from '../assets/icons-awe/pin.svg';
 import tie from '../assets/icons-awe/tie.svg';
 import mightycoder from '../assets/mightycoder.svg';
 import resume from '../assets/resume.pdf';
+import profile from "../assets/icons-awe/profile.png"
 
 
 const Sidebar = () => {
@@ -34,7 +35,7 @@ const Sidebar = () => {
             animate="visible"
 
         >
-            <img src={ mightycoder } alt="avatar" className="sidebar__avatar" />
+            <img src={ profile } alt="avatar" className="sidebar__avatar" />
             <div className="sidebar__name">Nanaji <span>Sanka</span> </div>
             <div className="sidebar__item sidebar__title">Full Stack Developer</div>
             <a href={ resume } download="resume.pdf">

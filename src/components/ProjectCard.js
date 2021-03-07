@@ -1,5 +1,5 @@
 import React from 'react';
-import github from '../assets/icons/github.svg'
+import github from '../assets/icons-awe/github.svg'
 const ProjectCard = ({ project: { name, image, deployed_url, github_url } }) => {
     return (
         <div className="projectrCard col-md-6 col-lg-4 my-2">

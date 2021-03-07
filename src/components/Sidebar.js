@@ -55,7 +55,7 @@ const Sidebar = () => {
                     <img src={ pin } alt="location" className="sidebar__icon mr-1" />
                     Waterloo, ON, Canada</div>
                 <div className="sidebar__item">nsanka@uwaterloo.ca</div>
-                <div className="sidebar__item">+1-(548)-333-1346</div>
+                {/* <div className="sidebar__item">+1-(548)-333-1346</div> */}
             </div>
             <div className="sidebar__item sidebar__email" onClick={ handleEmailMe }>Email Me</div>
         </motion.div>

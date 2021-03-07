@@ -50,10 +50,13 @@ const Projects = () => {
 
 
                 }>All</div>
-                <div className={active === 'react.js' && 'projects__navbar-active'} onClick={() => handleFilterCategory('react.js')}>React</div>
-                <div className={active === 'mongoDB' && 'projects__navbar-active'} onClick={() => handleFilterCategory('mongoDB')}>MongoDB</div>
-                <div className={active === 'node.js' && 'projects__navbar-active'} onClick={() => handleFilterCategory('node.js')}>Node</div>
-                <div className={active === 'vanilla' && 'projects__navbar-active'} onClick={() => handleFilterCategory('vanilla')}>Vanilla</div>
+                <div className={active === 'ReactJs' && 'projects__navbar-active'} onClick={() => handleFilterCategory('ReactJs')}>React</div>
+                <div className={active === 'Django' && 'projects__navbar-active'} onClick={() => handleFilterCategory('Django')}>Django</div>
+                <div className={active === 'Django REST framework' && 'projects__navbar-active'} onClick={() => handleFilterCategory('Django REST framework')}>REST</div>
+                <div className={active === 'NextJs' && 'projects__navbar-active'} onClick={() => handleFilterCategory('NextJs')}>Next</div>
+                <div className={active === 'JavaScript' && 'projects__navbar-active'} onClick={() => handleFilterCategory('JavaScript')}>JavaScript</div>
+                <div className={active === 'HTML5' && 'projects__navbar-active'} onClick={() => handleFilterCategory('HTML5')}>HTML5</div>
+                <div className={active === 'CSS3' && 'projects__navbar-active'} onClick={() => handleFilterCategory('CSS3')}>CSS3</div>
             </div>
 
             <div className="row">

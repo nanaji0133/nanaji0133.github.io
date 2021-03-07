@@ -61,7 +61,7 @@ const data_projects = [
     {
         name: 'NextJs Course',
         image: next,
-        deployed_url: 'https://github.com/nanaji0133/next.js-course',
+        github_url: 'https://github.com/nanaji0133/next.js-course',
         category: ['NextJs']
     },
 

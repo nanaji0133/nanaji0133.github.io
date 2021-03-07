@@ -33,7 +33,7 @@ const About = () => {
             exit="exit"
         >
             <h6 className="about__intro">
-            Dedicated and efficient full stack developer with 1+ year of hands-on experience designing, developing and implementing backend and frontend application using with a range of technologies, frameworks and programming languages.
+            Innovative, dedicated and efficient full stack developer with 1+ year of hands-on experience designing, developing and implementing backend and frontend application using with a range of technologies, frameworks and programming languages.
             </h6>
             <div className="container about__container">
                 <h6 className="about__heading">What I offer</h6>

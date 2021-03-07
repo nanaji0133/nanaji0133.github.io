@@ -12,32 +12,33 @@ const skills = [
     {
         icon: computer,
         title: "Frontend Development",
-        about: "I can build a beautiful and scalable SPA using HTML, CSS and React.js"
-    },
-    {
-        icon: repair,
-        title: "Backend  Development",
-        about: "handle database, server, api using and SQLlite",
+        about: "I design responsive websites for clients from concept through deployment using ReactJs, NextJs, HTML5, CSS3, Bootstrap"
     },
     {
         icon: api,
         title: "API Development",
-        about: ["I can develop robust REST API using", <strong key={1}> django-rest-api </strong>]
+        about: ["I design and develop robust REST API using", <strong key={1}> django-rest-api </strong>]
     },
+    {
+        icon: repair,
+        title: "Backend  Development",
+        about: "Handle database, server, api using and SQLlite",
+    },
+    
     {
         icon: algo,
         title: "Competitive Coder",
-        about: "a daily problem solver in HackerRank and Leetcode"
+        about: "A daily problem solver in HackerRank and Leetcode"
     },
-    {
-        icon: puzzle,
-        title: "UI/UX designer",
-        about: "minimalistic user interface designer using figma and  framer"
-    },
+    // {
+    //     icon: puzzle,
+    //     title: "UI/UX designer",
+    //     about: "minimalistic user interface designer using figma and  framer"
+    // },
     {
         icon: computer,
-        title: "Whatever",
-        about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!"
+        title: "Certification in Business and Entrepreneurship",
+        about: "From the Conrad School of Entrepreneurship and Business in Operations and Supply Chain Management, Project Management and Leadership."
     },
 ]
 
